@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Reviews</title>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <a href="#" class="active">EXP|CON</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+
+    </div>
+    <img class="img-1" src="SmallSpeaker1-03.png" alt="speaker">
+    <img class="img-2" src="SmallSpeaker2-03.png" alt="speaker">
+    <h2>REVIEWS</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="review-1 col-4">
+                <p class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                <h4>ARTIST</h4>
+                <p>"Love it, it's the<br> Best. I can't live<br> without it!"</p>
+            </div>
+
+            <div class="review-2 col-4">
+                <p class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                <h4>PRODUCER</h4>
+                <p>"Love it, it's the<br> Best. I can't live without it!"</p>
+            </div>
+
+            <div class="review-3 col-4">
+                <p class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                <h4>MUSIC FAN</h4>
+                <p>"Love it, it's the<br> Best. I can't live without it!"</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        $('.menu-btn').click(function () {
+            $('.navbar .menu').toggleClass("active");
+            $('.menu-btn i').toggleClass("active");
+        });
+    </script>
+</body>
+
+</html>
